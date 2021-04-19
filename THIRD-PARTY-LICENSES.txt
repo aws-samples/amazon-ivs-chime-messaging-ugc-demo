@@ -24,11 +24,11 @@ SOFTWARE.
 
 -----
 
-** amazon-chime-sdk-component-library-react; version 2.0.1 -- https://github.com/aws/amazon-chime-sdk-component-library-react
 ** The following vector assets are used under Apache License 2.0 (reproduced below).
 /src/assets/icons/favorite.svg
 /src/assets/icons/volume_off.svg
 /src/assets/icons/volume_up.svg
+** amazon-chime-sdk-component-library-react; version 2.0.1 -- https://github.com/aws/amazon-chime-sdk-component-library-react
 
 Apache License 2.0
 
