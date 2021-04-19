@@ -1,0 +1,13 @@
+type Channel @model {
+  id: ID!
+  title: String!
+  owner: String!
+  status: String!
+  viewers: Int!
+  playbackUrl:String!
+  ingestEndpoint: String!
+  streamKey: String!
+  type: String!
+  latencyMode: String!
+  chatChannel: String!
+}
