@@ -135,4 +135,4 @@ You can stream your contents using [OBS](https://obsproject.com/).
 - [Semantic-UI-React](https://react.semantic-ui.com/)
 
 ## License
-This sample code is made available unser a APACHE2.0 license. See the LICENSE file.
+This sample code is made available under a APACHE2.0 license. See the LICENSE file.
