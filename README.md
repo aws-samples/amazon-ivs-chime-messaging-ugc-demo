@@ -133,3 +133,6 @@ You can stream your contents using [OBS](https://obsproject.com/).
 - [Amazon ChimeSDK for JS](https://github.com/aws/amazon-chime-sdk-js)
 - [Amazon ChimeSDK Component Library React](https://github.com/aws/amazon-chime-sdk-component-library-react)
 - [Semantic-UI-React](https://react.semantic-ui.com/)
+
+## License
+This sample code is made available unser a APACHE2.0 license. See the LICENSE file.
