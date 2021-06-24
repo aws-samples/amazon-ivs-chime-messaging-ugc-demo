@@ -1,4 +1,4 @@
-# Build a simple UGC(User Generation Contents) platform using Amazon IVS and Chime SDK
+# Build a simple UGC(User Generated Contents) platform using Amazon IVS and Chime SDK
 ## Overview
  This demo provides live streaming services for streamers and you can join the streamer's channel and watch it. You can chat with streamer and other viewers. Moreover, you could send a heart to streamer when you want to show your love to the streamer.
  
