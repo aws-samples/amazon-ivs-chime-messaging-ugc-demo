@@ -60,7 +60,7 @@ class MyChannels extends Component {
     };
     API.graphql({ query: mutations.updateChannel, variables: { input: params } }).then((res)=>{
       console.log(res);
-      this.props.history.push("/channel", channel);
+      window.location.reload(false);
     });
 
 }
