@@ -24,7 +24,7 @@ To start demo quickly, follow the instructions as below.
 ### Provision Backend Side
 - Click `Launch Stack`
 
-[<img src=https://user-images.githubusercontent.com/33510681/110818932-0fd00980-82d1-11eb-8ad7-0c2f74b78222.png>](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=IVSChatDemoStack&templateURL=https://sjunekim-publicasset-bucket.s3.ap-northeast-2.amazonaws.com/ivs_chime_demo_cf_final.yaml)
+[<img src=https://user-images.githubusercontent.com/33510681/110818932-0fd00980-82d1-11eb-8ad7-0c2f74b78222.png>](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=IVSChatDemoStack&templateURL=https://sjunekim-publicasset-bucket.s3.ap-northeast-2.amazonaws.com/ivs_chime_demo_cf_final0.1.yaml)
 
 - Input Parameters
 
