@@ -101,6 +101,7 @@ To start demo quickly, follow the instructions as below.
   - Go to Root Dir
   - `chmod +x resize_volume.sh`
   - `./resize_volume.sh`
+  - This script only works in Amazon Linux Cloud9. If you are using Ubuntu Cloud9, change script `yum` to `apt-get -y`. 
 - Run command `npm install`
 - Run command `npm start` 
 
