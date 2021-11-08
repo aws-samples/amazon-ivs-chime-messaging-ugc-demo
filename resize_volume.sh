@@ -2,7 +2,7 @@
 
 set -eux
 
-sudo apt-get -y install jq curl
+sudo yum install jq curl
 INSTANCE_ID=$(curl http://169.254.169.254/latest/meta-data//instance-id)
 VOLUME_ID=$(aws ec2 describe-instances --instance-id $INSTANCE_ID | jq -r .Reservations[0].Instances[0].BlockDeviceMappings[0].Ebs.VolumeId)
 
