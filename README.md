@@ -95,6 +95,12 @@ To start demo quickly, follow the instructions as below.
 
 ### Finally Done! Use Demo!
 - Go to root dir of repo
+
+> **_NOTE:_**  If you are using Cloud9 for demo, you have to increase volume size of Cloud9 Instance. Run script `resize_volume.sh`before `npm install`. 
+- If you are using Cloud9
+  - Go to Root Dir
+  - `chmod +x resize_volume.sh`
+  - `./resize_volume.sh`
 - Run command `npm install`
 - Run command `npm start` 
 
