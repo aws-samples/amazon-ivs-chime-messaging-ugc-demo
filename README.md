@@ -42,6 +42,15 @@ To start demo quickly, follow the instructions as below.
 
 ### Configure Provisioned Backends to Frontend 
 
+> **_NOTE:_**  If you are using Cloud9 for demo, you have to increase volume size of Cloud9 Instance. Run script `resize_volume.sh`before `npm install`. 
+- If you are using Cloud9
+  - Go to Root Dir
+  - `chmod +x resize_volume.sh`
+  - `./resize_volume.sh`
+  - This script only works in Amazon Linux Cloud9. If you are using Ubuntu Cloud9, change script `yum` to `apt-get -y`. 
+- Run command `npm install`
+- Run command `npm start` 
+
 - clone repo to your local
 - go to root dir of repo
 - Copy & paste API endpoints to `src/config/apiConfig.js` from Cloudformation `ApiEndpoint` outputs
@@ -95,15 +104,6 @@ To start demo quickly, follow the instructions as below.
 
 ### Finally Done! Use Demo!
 - Go to root dir of repo
-
-> **_NOTE:_**  If you are using Cloud9 for demo, you have to increase volume size of Cloud9 Instance. Run script `resize_volume.sh`before `npm install`. 
-- If you are using Cloud9
-  - Go to Root Dir
-  - `chmod +x resize_volume.sh`
-  - `./resize_volume.sh`
-  - This script only works in Amazon Linux Cloud9. If you are using Ubuntu Cloud9, change script `yum` to `apt-get -y`. 
-- Run command `npm install`
-- Run command `npm start` 
 
 #### Create Channel
 - Click `Create Channel Button` and create channel!
