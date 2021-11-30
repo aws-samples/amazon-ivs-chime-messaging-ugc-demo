@@ -60,9 +60,6 @@ To start demo quickly, follow the instructions as below.
 
 ![image](https://user-images.githubusercontent.com/33510681/112758878-72443c00-902b-11eb-8e3e-a817aad0af90.png)
 
-- Run command `npm install`
-- Run command `npm start` 
-
 ### Install & Set up Amplify
 - Run command `npm install -g @aws-amplify/cli`
 - Run command `amplify configure`
@@ -117,6 +114,8 @@ To start demo quickly, follow the instructions as below.
 
 ### Finally Done! Use Demo!
 - Go to root dir of repo
+- (For one time) Run command `npm install`
+- Run command `npm start` 
 
 #### Create Channel
 - Click `Create Channel Button` and create channel!
