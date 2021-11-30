@@ -51,8 +51,6 @@ To start demo quickly, follow the instructions as below.
   - `chmod +x resize_volume.sh`
   - `./resize_volume.sh`
   - This script only works in Amazon Linux Cloud9. If you are using Ubuntu Cloud9, change script `yum` to `apt-get -y`. 
-- Run command `npm install`
-- Run command `npm start` 
 
 - Copy & paste API endpoints to `src/config/apiConfig.js` from Cloudformation `ApiEndpoint` outputs
 
@@ -61,6 +59,9 @@ To start demo quickly, follow the instructions as below.
 - Copy & past ChimeAppInstance ARN to `src/config/chimeConfig.js` from Cloudformation `appInstanceArn` output
 
 ![image](https://user-images.githubusercontent.com/33510681/112758878-72443c00-902b-11eb-8e3e-a817aad0af90.png)
+
+- Run command `npm install`
+- Run command `npm start` 
 
 ### Install & Set up Amplify
 - Run command `npm install -g @aws-amplify/cli`
