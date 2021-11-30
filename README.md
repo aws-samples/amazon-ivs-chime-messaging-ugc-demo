@@ -80,13 +80,24 @@ To start demo quickly, follow the instructions as below.
 
 ![image](https://user-images.githubusercontent.com/33510681/112759157-b97efc80-902c-11eb-9c10-9e7120c75de9.png)
 
+> **_NOTE:_**  AppSync in Amplify cli slightly changed. Please follow as below to add AppSync API.
+
 - Run command `amplify add api`
 - Select `GraphQL`
-- Type API Name and Select `Amazon Cognito User Pool`
-- Select `No, I'm Done` and Typo `Yes`
-- Input `./src/config/schema.graphql` which is provided schema file
+- Select `Authorization modes`.
+![image](https://user-images.githubusercontent.com/33510681/143969984-77f13c5e-87ff-49dd-90e6-bb8d0a5e1833.png)
 
-![image](https://user-images.githubusercontent.com/33510681/112759257-28f4ec00-902d-11eb-82e6-bd3a3ffa40b5.png)
+- Select `Amazon Cognito User Pool` and type 'N' which we will not configure additional auth types.
+![image](https://user-images.githubusercontent.com/33510681/143970241-3e42927c-99da-46b5-9c21-ebd6f7033451.png)
+
+- Select `Continue` and `Blank Schema`.
+- Select `Y` to edit schema.
+- Result as below. Open graphql schema file. file path is as below.
+![image](https://user-images.githubusercontent.com/33510681/143970555-28f115d8-2e69-4778-8160-e51c1e5755d7.png)
+
+- Copy schema from `src/config/schema.graphql` to schema file like as below.
+- Save it.
+![image](https://user-images.githubusercontent.com/33510681/143970700-0484bfc4-6588-41de-a6fd-d028b4e9a24b.png)
 
 - Run command `amplify push`
 - Type `Yes` to continue
