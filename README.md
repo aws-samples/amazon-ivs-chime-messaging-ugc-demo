@@ -42,6 +42,9 @@ To start demo quickly, follow the instructions as below.
 
 ### Configure Provisioned Backends to Frontend 
 
+- clone repo to your local
+- go to root dir of repo
+
 > **_NOTE:_**  If you are using Cloud9 for demo, you have to increase volume size of Cloud9 Instance. Run script `resize_volume.sh`before `npm install`. 
 - If you are using Cloud9
   - Go to Root Dir
@@ -51,8 +54,6 @@ To start demo quickly, follow the instructions as below.
 - Run command `npm install`
 - Run command `npm start` 
 
-- clone repo to your local
-- go to root dir of repo
 - Copy & paste API endpoints to `src/config/apiConfig.js` from Cloudformation `ApiEndpoint` outputs
 
 ![image](https://user-images.githubusercontent.com/33510681/112758813-2abdb000-902b-11eb-8723-4bf4d1be6b88.png)
